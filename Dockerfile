@@ -18,6 +18,8 @@ COPY default.conf /etc/nginx/conf.d/
 
 COPY www.conf /etc/php5/fpm/pool.d/
 
+COPY changepassword.php /var/www/phpldapadmin/htdocs
+
 COPY bootstrap.sh /
 
 ENTRYPOINT ["/bootstrap.sh"]
