@@ -22,8 +22,8 @@ function changePassword($user,$oldPassword,$newPassword,$newPasswordCnf){
   global $message;
   global $message_css;
  
-  $server = "localhost";
-  $dn = "ou=People,dc=example";
+  $server = "ldap";
+  $dn = "ou=user,dc=novatech";
     
   error_reporting(0);
   ldap_connect($server);
