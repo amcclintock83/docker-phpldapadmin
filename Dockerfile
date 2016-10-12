@@ -1,6 +1,6 @@
-FROM dinkel/nginx-phpfpm:8.2
+FROM amcclintock/nginx-phpfpm:8.2
 
-MAINTAINER Christian Luginbühl <dinkel@pimprecords.com>
+MAINTAINER Anthony McClintock  <anthony.mcclintock@novatechweb.com>
 
 ENV PHPLDAPADMIN_VERSION 1.2.2
 
